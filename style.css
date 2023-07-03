@@ -1,0 +1,83 @@
+#myform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    border-radius: 20px;
+    width: 400px;
+    background-color: white;
+}
+.border{
+    border: 2px solid red;
+}
+p{
+    height: 15px;
+    width: 100vw;
+}
+body{
+    background-color: rgb(12, 12, 147);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+h1{
+    margin-bottom: 9px;
+    color: olivedrab;
+}
+#error{
+    /* text-align: center; */
+    color: red;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 230px;    
+}
+#error1{
+    /* text-align: center; */
+    color: red;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 230px;    
+}
+#error2{
+    /* text-align: center; */
+    color: red;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 230px;    
+}
+#error3{
+    /* text-align: center; */
+    color: red;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 230px;    
+}
+#error4{
+    /* text-align: center; */
+    color: red;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 230px;    
+}
+input{
+    border-radius: 4px;
+    font-size: 17px;
+}
+input[type="submit"]{
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 10px;
+    box-shadow: lightgray;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
